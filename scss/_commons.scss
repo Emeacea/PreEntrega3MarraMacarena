@@ -1,2 +1,73 @@
+//fondo 
+body{
+    background-image: url(/imagenes/afono2.avif);
+    background-repeat: repeat;
+    color: black;
+    margin: 0;
+}
+
+//logo
+.logo1 {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.alinear {
+    text-align: right;
+    display: inline-block;
+}
+
+// camion etc
+
+.divalign {
+    text-align: center;
+}
+
+.camionaligne {
+    display: inline-block;
+    padding: 0 30px;
+    color: #080D0A;
+}
+
+.svgsize {
+    width: 50px;
+    height: 50px;
+} 
+
+.sepprodicon {
+    padding: 35px 0px 0px 25px;
+}
+
+//chat gpt
+.container {
+    display: flex;
+  }
+  
+  .block {
+    flex: 1;
+    padding: 10px;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+
+
+//footer
+.sectionaligner2 {
+    text-align: center;
+}
+
+.alineacionredes {
+    padding: 20px 25px;
+    text-align: center;
+    background-color: black;
+    color: #8C5637;
+}
+.redes {
+    width: 25px;
+    height: 25px;
+    padding: 0 25px ;
+}
 
 

@@ -1,3 +1,111 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap"); /* Color Theme Swatches in RGBA */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url(/imagenes/afono2.avif);
+  background-repeat: repeat;
+  color: black;
+  margin: 0;
+}
+
+.logo1 {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+.alinear {
+  text-align: right;
+  display: inline-block;
+}
+
+.divalign {
+  text-align: center;
+}
+
+.camionaligne {
+  display: inline-block;
+  padding: 0 30px;
+  color: #080D0A;
+}
+
+.svgsize {
+  width: 50px;
+  height: 50px;
+}
+
+.sepprodicon {
+  padding: 35px 0px 0px 25px;
+}
+
+.container {
+  display: flex;
+}
+
+.block {
+  flex: 1;
+  padding: 10px;
+  background-color: #eaeaea;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.sectionaligner2 {
+  text-align: center;
+}
+
+.alineacionredes {
+  padding: 20px 25px;
+  text-align: center;
+  background-color: black;
+  color: #8C5637;
+}
+
+.redes {
+  width: 25px;
+  height: 25px;
+  padding: 0 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 15px;
+  grid-template-areas: "f1 f2" "f3 f4";
+}
+
+.f1 {
+  grid-area: f1;
+  display: grid;
+  place-items: center;
+}
+
+.f2 {
+  grid-area: f2;
+  display: grid;
+  place-items: center;
+}
+
+.f3 {
+  grid-area: f3;
+  display: grid;
+  place-items: center;
+}
+
+.f4 {
+  grid-area: f4;
+  display: grid;
+  place-items: center;
+}
+
+.fondonewsletter {
+  background-color: #8C5B3F;
+}
 
 /*# sourceMappingURL=newstyle.css.map */

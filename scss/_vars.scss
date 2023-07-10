@@ -1,7 +1,32 @@
-/* Color Theme Swatches in RGBA */
-$color-theme_rgba: (8,13,10, 1);
-$color-theme_rgba: (140,91,63, 1);
-$color-theme_rgba: (191,154,131, 1);
-$color-theme_rgba: (242,242,242, 1);
-$color-theme_rgba: (191,191,191, 1);
+// variables globales
+//COLOR
+$mainColor: #F2F2F2;
+$mainColor2: #BFBFBF;
+$fontsize: 1em;
+$fontsize2: 1.6em;
+$white: rgb(248, 240, 240);
+$black: rgb(7, 7, 7);
+
+
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+//tamaño
+$textoch:0.8em;
+$textomd:1em;
+$texttogr:1.6em;
+$textomgr:2em;
+
+//pesos
+$textlight:300;
+$textregular:400;
+$textbold:600;
+
+
 
