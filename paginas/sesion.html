@@ -6,30 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEB SILLONES</title>
     <link rel="shortcut icon" href="../z iconos/favicon-32x32.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <header>
-        <nav class="navdisplay">
-            <a href="../index.html">
-                <img class="logo1" src="../iconos/LOGO MEB.png" alt="logo meb">
-            </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/imagenes/logo.svg" alt="logo" width="100" height="200">
+        </a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
             <div>
-                <ul>
-                    <li>
-                        <a class="navdisplay2 " href="../paginas-html/logueo.html">Logueo</a>
-                    </li>
-                    <li>
-                        <a class="navdisplay2 " href="../paginas-html/productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a class="navdisplay2 " href="../paginas-html/compra.html">Compra</a>
-                    </li>
-                    <li>
-                        <a class="navdisplay2 " href="../paginas-html/contacto.html">Contacto</a>
-                    </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
+            </li>
             </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Sesión</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
         </nav>
     </header>
     <main>
