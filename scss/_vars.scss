@@ -2,6 +2,7 @@
 //COLOR
 $mainColor: #F2F2F2;
 $mainColor2: #BFBFBF;
+$marron: #8C5B3F;
 $fontsize: 1em;
 $fontsize2: 1.6em;
 $white: rgb(248, 240, 240);
@@ -19,14 +20,20 @@ $black: rgb(7, 7, 7);
 
 //tamaño
 $textoch:0.8em;
-$textomd:1em;
-$texttogr:1.6em;
+$textomd:1.3em;
+$textogr:1.6em;
 $textomgr:2em;
 
 //pesos
 $textlight:300;
 $textregular:400;
 $textbold:600;
+
+//botones 
+$button-size: 60px;   // Tamaño del botón (ancho y alto)
+$button-color: $white;   // Color de fondo del botón
+$button-position: 20px;   // Posición desde el borde derecho e inferior de la ventana
+
 
 
 

@@ -30,6 +30,8 @@ body{
     color: #080D0A;
 }
 
+
+
 .svgsize {
     width: 50px;
     height: 50px;
@@ -40,17 +42,42 @@ body{
 }
 
 //chat gpt
-.container {
-    display: flex;
-  }
   
-  .block {
-    flex: 1;
-    padding: 10px;
-    background-color: #eaeaea;
-    border: 1px solid #ccc;
-    margin-right: 10px;
-  }
+
+//productos
+.sectioncontainer {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.imagenprod {
+    width: 250px;
+    height: 220px;
+    padding: 0% 30px;
+}
+
+.divsep {
+    display: inline-block;
+    margin: 15px 15px;
+}
+
+.septext {
+    margin: 30px;
+}
+
+.texto-prod {
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: large;
+    margin: 0%;
+}
 
 
 //footer
@@ -70,4 +97,11 @@ body{
     padding: 0 25px ;
 }
 
+//textos
+.textonav {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: lig;
+}
 

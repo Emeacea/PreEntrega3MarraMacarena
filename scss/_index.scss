@@ -1,37 +1,61 @@
+//nav
+.navbar {
+  height: 60px; // Ajusta la altura
+  color: #0e0101;
+  background-color: #8C5B3F;
+}
 
-
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    row-gap: 15px;
-    grid-template-areas: 
-    "f1 f2"
-    "f3 f4";
-}
-.f1 {
-    grid-area: f1;
-    display: grid;
-    place-items: center;
-}
-.f2 {
-    grid-area: f2;
-    display: grid;
-    place-items: center;
-}
-.f3 {
-    grid-area: f3;
-    display: grid;
-    place-items: center;
-}
-.f4 {
-    grid-area: f4;
-    display: grid;
-    place-items: center;
+.logo {
+  width: 80px; // Ajusta el ancho según tus necesidades
+  height: auto; // La altura se ajustará automáticamente
+  margin: 10px;
 }
 
 //newsletter
 .fondonewsletter {
-    background-color: #8C5B3F;
+  background-color: #8C5B3F;
+  text-align: center;
+  color: $black;
+  font-weight: bold;
+  font-size: $textomd;
+  margin: 0%;
+  padding: 10px;
 }
+
+.ingresomail {
+margin: 0px auto;
+padding: 5px;
+border: $black 5px;
+border-radius: 10%;
+}
+
+.botonsuscribir {
+  background-color: whitesmoke;
+  color: $black;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+//grids
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    margin: 25px;
+
+  }
+  
+  .grid-item {
+    width: auto;
+    height: auto;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
