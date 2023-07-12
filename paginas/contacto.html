@@ -56,48 +56,46 @@
     </nav>
 </header>
     <main>
-         <h1 class="titulos">CONTACTO</h1>
-         <p>Si desea contactarse con nosotros por consultas o
-          presupuestos, por favor complete el siguiente formulario.</p>
-            <section class="logueopadre2 - divsep">
-              <section class="logueohijo - logueotexto">
-                <form class="titulos" action="envio.php">
-                  <div class="logueoseparacion2 - alinearform">
-                    <label class="textoforms" for="Nombre">Nombre:</label>
-                    <input class="imput - interiorform" type="text" id="Nombre">
-                  </div>
-                  <div class="logueoseparacion2 - alinearform">
-                    <label class="textoforms" for="E-mail">E-mail:</label>
-                    <input class="imput - interiorform" type="text" id="E-mail">
-                  </div>
-                  <div class="logueoseparacion2 - alinearform">
-                    <label class="textoforms" for="telefono">Teléfono:</label>
-                    <input class="imput - interiorform" type="number" id="telefono">
-                  </div>
-                  <div class="logueoseparacion2 - alinearform">
-                    <label class="textoforms" for="provincia">Provincia:</label>
-                    <input class="imput - interiorform" type="text" id="provincia">
-                  </div>
-                  <div class="logueoseparacion2 - alinearform">
-                    <label class="textoforms" for="Mensaje">Escribinos tu consulta:</label>
-                    <textarea class="imput - interiorform" name="Mensaje" id="Mensaje" cols="60" rows="10"></textarea>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                      <label class="form-check-label" for="invalidCheck2">
-                        Acepto los términos y condiciones.
-                      </label>
+        <section class="justify-content-around mb-5>
+            <h1 class="titulos">CONTACTO</h1>
+            <p>Si desea contactarse con nosotros por consultas o
+             presupuestos, por favor complete el siguiente formulario.</p>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="Nombre">
                     </div>
-                  <div class="logueoseparacion">
-                    <input class="form-button" type="reset" value="Cancelar">
-                    <input class="form-button" type="submit" value="Enviar consulta">
-                  </div>
-                </form>
-              </section>
-            </section>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido">
+                    </div>
+              </div>
+              <div class="row mb-3"></div>
+                    <div class="row mb-3">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="colFormLabel" placeholder="E-mail">
+                        </div>
+                    </div>
+                </div>  
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="Teléfono">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Provincia">
+                    </div>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+                    <label for="floatingTextarea2Disabled">Escribinos tu consulta</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recibir notificaciones y ofertas en mi e-mail</label>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar consulta</button>
+                </div>
         </section>
-            <!-- camionsito etc -->
+<!-- camionsito etc -->
             <section>
               <div class="d-flex justify-content-center">
                   <div class="camionaligne divalign">

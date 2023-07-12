@@ -57,48 +57,58 @@
 </header>
     <main>
         <h1 class="titulos">CUENTA</h1>
-        <section class="logueopadre">    
-            <section class="logueohijo - logueotexto - Fondoform">
-                <h2 class="titulos">Ingresa a tu cuenta</h2>
-                <p>Bienvenido nuevamente. Ingresa tus datos</p>
-                <form action="envio.php">
-                    <div class="logueoseparacion2 - alinearform">
-                        <label for="E-mail">E-mail:</label>
-                        <input class="imput - interiorform" type="text" id="E-mail">
+            <section class="d-flex justify-content-around mb-5>
+                <h2 class="text-center mb-5 mt-5">INGRESA</h2>
+                <p>Bienvenido nuevamente. Ingresa tus datos.</p>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
                     </div>
-                    <div class="logueoseparacion2 - alinearform">
-                        <label for="Contraseña">Contraseña:</label>
-                        <input class="imput - interiorform" type="password" id="Contraseña">
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <div class="logueoseparacion">
-                        <input class="form-button" type="reset" value="Cancelar">
-                        <input class="form-button" type="submit" value="Ingresar">
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Recibir notificaciones y ofertas en mi e-mail</label>
                     </div>
-                </form>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </form>
             </section>
-            <section class="logueohijo - logueotexto - Fondoform2">
-                <h2 class="titulos">Registrate ahora</h2>
-                <p>Completa los datos para registrarte</p>
-                <form action="envio.php">
-                    <div class="logueoseparacion2 - alinearform">
-                        <label for="E-mail">E-mail:</label>
-                        <input class="imput - interiorform" type="text" id="E-mail">
+            <section class="d-flex justify-content-around mb-5>
+                <H2 class="text-center mb-5 mt-5">REGISTRATE AHORA</H2>
+                <P>Completa los datos para registrarte</P>
+                <div class="row">
+                    <div class="col-auto">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                     </div>
-                    <div class="logueoseparacion2 - alinearform">
-                        <label for="Contraseña">Contraseña:</label>
-                        <input class="imput - interiorform" type="password" id="Contraseña">
+                    <div class="col-auto">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                     </div>
-                    <div class="logueoseparacion2 - alinearform">
-                        <label for="Repita la contraseña">Repita la contraseña:</label>
-                        <input class="imput - interiorform" type="password" id="Repita la contraseña">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                      </div>
+                    <div class="col-auto">
+                      <span id="passwordHelpInline" class="form-text">
+                        Must be 8-20 characters long.
+                      </span>
                     </div>
-                    <div class="logueoseparacion">
-                        <input class="form-button" type="reset" value="Cancelar">
-                        <input class="form-button" type="submit" value="Registrarme">
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label for="inputPassword2" class="visually-hidden">Password</label>
+                            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                          </div>
                     </div>
-                </form>
+                </div>
             </section>
-        </section>
             <!-- camionsito etc -->
             <section>
                 <div class="d-flex justify-content-center">
