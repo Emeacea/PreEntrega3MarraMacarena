@@ -30,8 +30,6 @@ body{
     color: #080D0A;
 }
 
-
-
 .svgsize {
     width: 50px;
     height: 50px;
@@ -41,6 +39,13 @@ body{
     padding: 35px 0px 0px 25px;
 }
 
+.border {
+    border-style: solid;
+    border-width: 1px;
+    padding: 25px;
+    margin: 25px;
+}
+
 //chat gpt
   
 
@@ -48,12 +53,22 @@ body{
 .sectioncontainer {
     text-align: center;
     padding-top: 5px;
+    flex-wrap: nowrap;
+    display: flex;
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 .container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     }
 
 .imagenprod {
@@ -103,5 +118,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     font-weight: lig;
+}
+
+.textdescripcion {
+    text-decoration: none;
+    text-align: center;
+    font-size: $textomd;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic lighter', 'Arial Narrow', Arial, sans-serif;
+    margin: 1% 5%;
+
+
 }
 

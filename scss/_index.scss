@@ -2,7 +2,7 @@
 .navbar {
   height: 60px; // Ajusta la altura
   color: #0e0101;
-  background-color: #8C5B3F;
+  background-color: $mainColor2;
 }
 
 .logo {
@@ -11,15 +11,34 @@
   margin: 10px;
 }
 
+//textos
+.h1 {
+  font-size: $textomgr;
+  font-weight: $textbold;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 2%;
+}
+
+.texth2 {
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  margin: 5px 20px;
+}
+
+
 //newsletter
 .fondonewsletter {
-  background-color: #8C5B3F;
-  text-align: center;
+  background-color: $mainColor;
+  text-align:center;
   color: $black;
   font-weight: bold;
   font-size: $textomd;
   margin: 0%;
-  padding: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 0.5px
 }
 
 .ingresomail {
@@ -44,7 +63,6 @@ border-radius: 10%;
     grid-template-rows: auto auto;
     grid-gap: 10px;
     margin: 25px;
-
   }
   
   .grid-item {
@@ -58,4 +76,16 @@ border-radius: 10%;
     object-fit: cover;
   }
 
-  
+  //descripcion: 
+.textdes {
+  text-align: center;
+}
+
+.texth2 {
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  margin: 5p 20px;
+}
+
+  //productos

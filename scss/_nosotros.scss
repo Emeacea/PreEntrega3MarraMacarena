@@ -1,0 +1,12 @@
+//imagenes
+.imagennos1 {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+.gridnos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
