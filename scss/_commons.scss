@@ -130,4 +130,7 @@ body{
 
 
 }
+.sizer {
+    @include sizer ( 640px, auto);
+}
 
