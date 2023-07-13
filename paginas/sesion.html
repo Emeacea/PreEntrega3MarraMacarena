@@ -56,61 +56,70 @@
     </nav>
 </header>
     <main>
-        <h1 class="titulos">CUENTA</h1>
-            <section class="d-flex justify-content-around mb-5>
-                <h2 class="text-center mb-5 mt-5">INGRESA</h2>
-                <p>Bienvenido nuevamente. Ingresa tus datos.</p>
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">E-mail</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Recibir notificaciones y ofertas en mi e-mail</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Ingresar</button>
-                  </form>
-            </section>
-            <section class="d-flex justify-content-around mb-5>
-                <H2 class="text-center mb-5 mt-5">REGISTRATE AHORA</H2>
-                <P>Completa los datos para registrarte</P>
-                <div class="row">
-                    <div class="col-auto">
-                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                    </div>
-                    <div class="col-auto">
-                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                    </div>
-                  </div>
-                  <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputPassword2" class="visually-hidden">Password</label>
-                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-                      </div>
-                    <div class="col-auto">
-                      <span id="passwordHelpInline" class="form-text">
-                        Must be 8-20 characters long.
-                      </span>
-                    </div>
-                    <div class="row g-3 align-items-center">
-                        <div class="col-auto">
-                            <label for="inputPassword2" class="visually-hidden">Password</label>
-                            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-                          </div>
+        <section>
+        <h1 class="h1">CUENTA</h1>
+        <section class="d-flex justify-content-around m-5">
+            <section class="m-2">
+            <h2>REGISTRARME AHORA</h2>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+          </div>
+          <div class="row mb-3"></div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="E-mail" placeholder="E-mail">
                     </div>
                 </div>
+            </div>  
+            <div class="row g-3 align-items-center">
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                <div class="col-auto">
+                  <span id="passwordHelpInline" class="form-text">
+                    Must be 8-20 characters long.
+                  </span>
+                </div>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Registrarme</button>
+            </div>
             </section>
-            <!-- camionsito etc -->
-            <section>
+            <section class="m-2">
+                <h2>INGRESAR</h2>
+                <P>Bienvenido nuevamente. Ingresa tus datos</P>
+                <div class="row mb-3"></div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="E-mail" placeholder="E-mail">
+                    </div>
+                </div>
+            </div> 
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+                <label for="floatingPassword">Contraseña</label>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recibir notificaciones y ofertas en mi e-mail</label>
+            </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Ingresar</button>
+            </div>
+            </section>   
+        </section>
+<!-- camionsito etc -->
+        <section>
                 <div class="d-flex justify-content-center">
                     <div class="camionaligne divalign">
                         <svg class="svgsize" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck-front" viewBox="0 0 16 16">

@@ -223,4 +223,14 @@ img {
   grid-gap: 5px;
 }
 
+.form-container {
+  max-width: 400px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=newstyle.css.map */
