@@ -134,3 +134,11 @@ body{
     @include sizer ( 640px, auto);
 }
 
+.title { 
+    font-size: 6 rem;
+    color: #080D0A;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
