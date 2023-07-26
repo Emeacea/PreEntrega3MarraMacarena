@@ -8,6 +8,16 @@ $fontsize2: 1.6em;
 $white: rgb(248, 240, 240);
 $black: rgb(7, 7, 7);
 
+@mixin nosotroscard{
+    color: black
+    $textbold
+    $textomd
+}
+
+.noscard { 
+    @include nosotroscard;
+    text-decoration: none;
+}
 
 
 //fonts

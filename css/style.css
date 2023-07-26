@@ -437,7 +437,7 @@ p1 {
     height: 24px;
   }
   
-  .footer-icon:hover {
+.footer-icon:hover {
     transform: scale(1.2);
     filter: brightness(1.2);
 }
