@@ -42,10 +42,10 @@
 }
 
 .ingresomail {
-margin: 0px auto;
-padding: 5px;
-border: $black 5px;
-border-radius: 10%;
+  margin: 0px auto;
+  padding: 5px;
+  border: $black 5px;
+  border-radius: 10%;
 }
 
 .botonsuscribir {
@@ -102,3 +102,35 @@ border-radius: 10%;
 }
 
   //productos
+
+  //animaciones
+.animatexto { 
+  opacity: 0; /* párrafo oculto */
+  animation: fadeIn 5s 1s both;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.animatitulo {
+  opacity: 0; /* El párrafo estará oculto al principio */
+  color: #8C5B3F; /* Color inicial del texto (marrón) */
+  animation: fadeIn2 3s 1s both
+}
+
+@keyframes fadeIn2 {
+  0% {
+      opacity: 0; /* Comenzamos con opacidad 0 */
+      color: #8C5B3F; /* Color inicial del texto (marrón) */
+  }
+  100% {
+      opacity: 1; /* Terminamos con opacidad 1 */
+      color: black; /* Color final del texto (negro) */
+  }
+}

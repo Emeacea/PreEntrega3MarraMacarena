@@ -1,16 +1,10 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 * {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   list-style: none;
-}
-
-body {
-  background-image: url(/imagenes/afono2.avif);
-  background-repeat: repeat;
-  color: black;
-  margin: 0;
 }
 
 .logo1 {
@@ -140,6 +134,22 @@ body {
   font-weight: bold;
 }
 
+.container404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  height: 745px;
+  background-image: url(../imagenes/tramado404.avif);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .navbar {
   height: 60px;
   color: #0e0101;
@@ -237,6 +247,35 @@ img {
   margin: 5p 20px;
 }
 
+.animatexto {
+  opacity: 0; /* párrafo oculto */
+  animation: fadeIn 5s 1s both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animatitulo {
+  opacity: 0; /* El párrafo estará oculto al principio */
+  color: #8C5B3F; /* Color inicial del texto (marrón) */
+  animation: fadeIn2 3s 1s both;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0; /* Comenzamos con opacidad 0 */
+    color: #8C5B3F; /* Color inicial del texto (marrón) */
+  }
+  100% {
+    opacity: 1; /* Terminamos con opacidad 1 */
+    color: black; /* Color final del texto (negro) */
+  }
+}
 .imagennos1 {
   width: 100%;
   height: auto;
