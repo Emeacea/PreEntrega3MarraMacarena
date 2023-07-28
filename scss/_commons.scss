@@ -40,9 +40,6 @@
     margin: 25px;
 }
 
-//chat gpt
-  
-
 //productos
 .sectioncontainer {
     @extend .sectionaligner2;
@@ -113,7 +110,7 @@
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
-    font-weight: lig;
+    font-weight: lighter;
 }
 
 .textdescripcion {
@@ -123,8 +120,6 @@
     font-weight: lighter;
     font-family: 'Franklin Gothic lighter', 'Arial Narrow', Arial, sans-serif;
     margin: 1% 5%;
-
-
 }
 .sizer {
     @include sizer ( 640px, auto);
@@ -157,3 +152,8 @@
     background-repeat: repeat;
 }
 
+.items {
+    text-align: center;
+    margin: 10px;
+    padding: 5%;
+}
