@@ -59,35 +59,51 @@
 //grids
 .grid-container {
     display: grid;
+    place-items: center;
+    grid-row-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto;
-    grid-gap: 10px;
-    margin: 25px;
-  }
-  
-  .grid-item {
-    width: auto;
-    height: auto;
-  }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 5px black;
-  }
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "grid-item1 grid-item2" "grid-item3 grid-item4";
+    .grid-item1 {
+      grid-area: grid-item1;
+    }
+    .grid-item2 {
+      grid-area: grid-item2;
+    }
+    .grid-item3 {
+      grid-area: grid-item3;
+    }
+    .grid-item4 {
+      grid-area: grid-item4;
+    }
+}
+.img-portobellos {
+  width: none;
+  height: auto;
+}
+.img-header {
+  width: 500px;
+  height: auto;
+}  
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 5px black;
+}
 
-  .image-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 3rem;
-    color: aliceblue;
-  }
+.image-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: aliceblue;
+}
 
   //descripcion: 
 .textdes {

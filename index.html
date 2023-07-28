@@ -13,78 +13,58 @@
         <link rel="stylesheet" href="./css/newstyle.css">
     </head>
     <body>
-        <header>
-            <nav class="navbar-expand-lg bg-body-tertiary navbar">
-            <a class="navbar-brand navmargin" href="./index.html">
-                <img class="logo" src="./imagenes/logo.svg" alt="logo" width="150" height="200">
-            </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
             <div class="container-fluid">
-                <a class="navbar-brand textonav" href="./index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="#">Navbar</a> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle textonav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="./paginas/prod.html">Premium sale</a></li>
-                            <li><a class="dropdown-item" href="./paginas/prod.html">Sofás</a></li>
-                            <li><a class="dropdown-item " href="./paginas/prod.html">A medida</a></li>
-                            <li><a class="dropdown-item" href="./paginas/prod.html">Sofás cama</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./paginas/prod.html">Todos los productos</a></li>
-                        </ul>
-                    </li>
-                </div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active textonav" aria-current="page" href="./paginas/nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active textonav" aria-current="page" href="./paginas/contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active textonav" href="./paginas/sesion.html">Sesión</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </header>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         <main>
-            <h1 class="title text-center animatitulo">Encuentra tu confort</h1>
-            <section class="grid-container">
-                <div class="grid-item">
-                    <a href="#">
-                        <img src="./imagenes/afoto1.webp" alt="sillon 1">
-                        <p class="image-caption">SOFÁS</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="#">
-                        <img src="./imagenes/afoto2.webp" alt="sillon 2">
-                        <P class="">A MEDIDA</P>
-                    </a>
-                </div>
-                <div class="grid-item grid-p">
-                    <a href="#">
-                        <img src="./imagenes/afoto8.webp" alt="sillon 3">
-                        <p class="">SOFÁS CAMA</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="#">
-                        <img src="./imagenes/afoto5.webp" alt="sillon 4">
-                        <p class="">PREMIUM SALE</p>
-                    </a>
-            </section>   
+            <h1 class="text-center">Encuentra tu confort</h1>
+            <section class="grid-container mb-5 mt-5">
+                <a class="grid-item1" href="">
+                    <img class="img-portobellos" src="./imagenes/foto-header1.webp" alt="">
+                </a>
+                <a class="grid-item2" href="">
+                    <img class="img-portobellos" src="./imagenes/foto-header2.webp" alt="">
+                </a>
+                <a class="grid-item3" href="">
+                    <img class="img-portobellos" src="./imagenes/foto-header3.webp" alt="">
+                </a>
+                <a class="grid-item4" href="">
+                    <img class="img-portobellos" src="./imagenes/foto-header4.webp" alt="">
+                </a>
+            </section>
             <p class="textdescripcion mb-5 animatexto">En MEBA, nos apasiona crear espacios de descanso excepcionales. Nuestros sillones son mucho más que simples asientos; son auténticos oasis de comodidad y confort. Cada uno de nuestros diseños ha sido cuidadosamente creado para brindarte una experiencia única.
             </p>
             <h2 class="text-center mb-5 mt-5">Nuestros sofás más vendidos</h2>
