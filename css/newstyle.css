@@ -172,12 +172,6 @@
   grid-area: grid-item4;
 }
 
-.navbar {
-  height: 60px;
-  color: #0e0101;
-  background-color: #BFBFBF;
-}
-
 .logo {
   width: 80px;
   height: auto;
