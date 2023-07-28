@@ -62,25 +62,6 @@
     place-items: center;
     grid-row-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
-<<<<<<< HEAD
-    grid-template-rows: auto auto;
-    grid-gap: 10px;
-    margin: 25px;
-  }
-  
-  .grid-item {
-    width: auto;
-    height: auto;
-  }
-  
-  .img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 5px black;
-  }
-=======
     grid-template-rows: repeat(2,1fr);
     grid-template-areas: 
     "grid-item1 grid-item2" "grid-item3 grid-item4";
@@ -112,7 +93,6 @@
   border-radius: 20px;
   box-shadow: 5px black;
 }
->>>>>>> bdded1e37749aaea8c352cd4a50f677ea5ffc92c
 
 .image-caption {
   position: absolute;
