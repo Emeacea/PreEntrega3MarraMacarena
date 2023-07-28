@@ -1,17 +1,24 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
-* {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  list-style: none;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 13 |     $textbold
+ *    |     ^^^^^^^^^
+ *    '
+ *   scss\_vars.scss 13:5    nosotroscard()
+ *   scss\_vars.scss 18:5    @import
+ *   scss\newstyle.scss 2:9  root stylesheet */
 
-.logo1 {
-  width: 60px;
-  height: 60px;
-  padding: 5px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 13 \2502      $textbold\d\a    \2502      ^^^^^^^^^\a    \2575 \a   scss\\_vars.scss 13:5    nosotroscard()\a   scss\\_vars.scss 18:5    @import\a   scss\\newstyle.scss 2:9  root stylesheet";
 }
+<<<<<<< HEAD
+=======
 
 .alinear {
   text-align: right;
@@ -326,3 +333,4 @@
 }
 
 /*# sourceMappingURL=newstyle.css.map */
+>>>>>>> bdded1e37749aaea8c352cd4a50f677ea5ffc92c
