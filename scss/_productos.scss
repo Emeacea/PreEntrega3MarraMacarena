@@ -2,3 +2,22 @@
 .marginprodbot {
     margin left: 50px;
 }
+
+.grid-cards {
+    display: grid;
+    place-items: center;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "grid-iteme grid-itemf grid-itemg";
+    .grid-iteme {
+        grid-area: grid-item1;
+    }
+    .grid-itemf {
+        grid-area: grid-item2;
+    }
+    .grid-itemg {
+        grid-area: grid-item3;
+    }  
+}

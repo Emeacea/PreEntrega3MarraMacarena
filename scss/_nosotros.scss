@@ -10,3 +10,25 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
 }
+    
+.grid-containernos {
+    display: grid;
+    place-items: center;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "grid-item1 grid-item2" "grid-item3 grid-item4";
+    .grid-item1 {
+      grid-area: grid-item1;
+    }
+    .grid-item2 {
+      grid-area: grid-item2;
+    }
+    .grid-item3 {
+      grid-area: grid-item3;
+    }
+    .grid-item4 {
+      grid-area: grid-item4;
+    }
+}
