@@ -1,38 +1,29 @@
-/* Error: Undefined variable.
- *    ,
- * 13 |     $textbold
- *    |     ^^^^^^^^^
- *    '
- *   scss\_vars.scss 13:5    nosotroscard()
- *   scss\_vars.scss 18:5    @import
- *   scss\newstyle.scss 2:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 13 \2502      $textbold\d\a    \2502      ^^^^^^^^^\a    \2575 \a   scss\\_vars.scss 13:5    nosotroscard()\a   scss\\_vars.scss 18:5    @import\a   scss\\newstyle.scss 2:9  root stylesheet";
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
-<<<<<<< HEAD
-=======
+
+.logo1 {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
 
 .alinear {
   text-align: right;
   display: inline-block;
 }
 
-.divalign {
-  text-align: center;
-}
-
 .camionaligne {
   display: inline-block;
   padding: 0 30px;
   color: #080D0A;
+  text-align: center;
+  width: 100%;
 }
 
 .svgsize {
@@ -95,19 +86,21 @@ body::before {
   text-align: center;
   background-color: black;
   color: #8C5637;
+  width: 100%;
 }
 
 .redes {
   width: 25px;
   height: 25px;
-  padding: 0 25px;
+  padding: 0 20px;
+  color: aliceblue;
 }
 
 .textonav {
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3em;
-  font-weight: lig;
+  font-weight: lighter;
 }
 
 .textdescripcion {
@@ -147,6 +140,36 @@ body::before {
   background-image: url(../imagenes/tramado404.avif);
   background-size: cover;
   background-repeat: repeat;
+}
+
+.items {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  padding: 5%;
+}
+
+.grid-containercam {
+  display: grid;
+  place-items: center;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "grid-itema grid-itemb grid-itemc grid-itemd";
+}
+.grid-containercam .grid-itema {
+  grid-area: grid-item1;
+}
+.grid-containercam .grid-itemb {
+  grid-area: grid-item2;
+}
+.grid-containercam .grid-itemc {
+  grid-area: grid-item3;
+}
+.grid-containercam .grid-itemd {
+  grid-area: grid-item4;
 }
 
 .navbar {
@@ -323,6 +346,13 @@ body::before {
   }
 }
 @media (width < 930px) {
+  .grid-containercam {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "grid-itema" "grid-itemb" "grid-itemc" "grid-itemd";
+  }
+}
+@media (width < 930px) {
   main {
     padding: 0px 15px;
   }
@@ -331,6 +361,10 @@ body::before {
     height: auto;
   }
 }
+@media (widht < 1085) {
+  .camionaligne {
+    width: 50%;
+  }
+}
 
 /*# sourceMappingURL=newstyle.css.map */
->>>>>>> bdded1e37749aaea8c352cd4a50f677ea5ffc92c

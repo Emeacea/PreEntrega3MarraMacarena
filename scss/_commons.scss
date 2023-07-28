@@ -14,14 +14,13 @@
 
 // camion etc
 
-.divalign {
-    text-align: center;
-}
 
 .camionaligne {
     display: inline-block;
     padding: 0 30px;
     color: #080D0A;
+    text-align: center;
+    width: 100%;
 }
 
 .svgsize {
@@ -54,8 +53,6 @@
     font-size 30px
     text-decoration none;
 }
-
-
 
 .container1 {
     display: flex;
@@ -98,11 +95,13 @@
     text-align: center;
     background-color: black;
     color: #8C5637;
+    width: 100%;
 }
 .redes {
     width: 25px;
     height: 25px;
-    padding: 0 25px ;
+    padding: 0 20px;
+    color: aliceblue;
 }
 
 //textos
@@ -153,7 +152,32 @@
 }
 
 .items {
+    display: flex;
     text-align: center;
+    align-items: center;
+    width: 100%;
     margin: 10px;
     padding: 5%;
+}
+
+.grid-containercam {
+    display: grid;
+    place-items: center;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "grid-itema grid-itemb grid-itemc grid-itemd";
+    .grid-itema {
+        grid-area: grid-item1;
+    }
+    .grid-itemb {
+        grid-area: grid-item2;
+    }
+    .grid-itemc {
+        grid-area: grid-item3;
+    }
+    .grid-itemd {
+        grid-area: grid-item4;
+    }   
 }

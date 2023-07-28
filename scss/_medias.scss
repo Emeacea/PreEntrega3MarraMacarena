@@ -10,11 +10,29 @@
     }
 }
 @media ( width < 930px ) {
+    .grid-containercam {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "grid-itema"
+        "grid-itemb"
+        "grid-itemc"
+        "grid-itemd";
+    }
+}
+
+
+@media ( width < 930px ) {
     main {
         padding: 0px 15px;
     }
     .img-portobellos {
         width: 100%;
         height: auto;
+    }
+}
+@media ( widht < 1085 ) {
+    .camionaligne {
+        width: 50%; 
     }
 }
