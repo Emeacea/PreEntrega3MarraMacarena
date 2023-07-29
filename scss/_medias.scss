@@ -9,6 +9,16 @@
         "grid-item4";
     }
 }
+@media ( width < 1125px ) {
+    .sesion-flexer {
+        flex-direction: column;
+    }
+}
+@media ( width < 1085px ) {
+    .camionaligne {
+        width: 50%; 
+    }
+}
 @media ( width < 930px ) {
     .grid-containercam {
         grid-template-columns: repeat(1,1fr);
@@ -19,10 +29,6 @@
         "grid-itemc"
         "grid-itemd";
     }
-}
-
-
-@media ( width < 930px ) {
     main {
         padding: 0px 15px;
     }
@@ -31,8 +37,13 @@
         height: auto;
     }
 }
-@media ( widht < 1085 ) {
-    .camionaligne {
-        width: 50%; 
+@media ( width < 650px ){
+    .contacto-portobellos {
+        width: 100%;
+    }
+}
+@media ( width < 450px ){
+    .sesion-container {
+        width: 100%;
     }
 }

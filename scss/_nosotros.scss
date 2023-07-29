@@ -10,3 +10,6 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
 }
+.sesion-flexer-nos {
+    @include flex ( row, space-around , center , wrap )
+  }
